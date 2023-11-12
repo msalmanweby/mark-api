@@ -8,4 +8,4 @@ class CalcTest(SimpleTestCase):
     def test_add_numbers(self):
         res = calc.add(6,5)
 #Checking wether the result is True or False
-        self.assertEqual(res, 12)
+        self.assertEqual(res, 11)
