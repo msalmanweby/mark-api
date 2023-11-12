@@ -9,3 +9,4 @@ class CalcTest(SimpleTestCase):
         res = calc.add(6,5)
 #Checking wether the result is True or False
         self.assertEqual(res, 11)
+        
